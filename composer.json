@@ -1,0 +1,17 @@
+{
+    "name": "viktordw/cpanel",
+    "description": "Wrapper script for cPanel uapi",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Viktordw\\Cpanel\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "viktordw"
+        }
+    ],
+    "require": {}
+}
