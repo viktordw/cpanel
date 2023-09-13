@@ -1,0 +1,181 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "f0a4793ea59c29362a0d388fa85bbde4",
+    "packages": [
+        {
+            "name": "toolkit/cli-utils",
+            "version": "v2.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-toolkit/cli-utils.git",
+                "reference": "bc07930a1669372566d8bc9f521a57cc3bb5b499"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-toolkit/cli-utils/zipball/bc07930a1669372566d8bc9f521a57cc3bb5b499",
+                "reference": "bc07930a1669372566d8bc9f521a57cc3bb5b499",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">8.0.0"
+            },
+            "require-dev": {
+                "ext-posix": "*",
+                "ext-readline": "*"
+            },
+            "suggest": {
+                "inhere/console": "a lightweight php console application library.",
+                "toolkit/pflag": "Command line flag parse library of the php"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Toolkit\\Cli\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "inhere",
+                    "email": "in.798@qq.com",
+                    "homepage": "http://github.com/inhere"
+                }
+            ],
+            "description": "useful cli tool library of the php",
+            "homepage": "https://github.com/php-toolkit/cli-utils",
+            "keywords": [
+                "cli",
+                "cli-color",
+                "command-line",
+                "library",
+                "php",
+                "tool"
+            ],
+            "support": {
+                "issues": "https://github.com/php-toolkit/cli-utils/issues",
+                "source": "https://github.com/php-toolkit/cli-utils/tree/v2.0.3"
+            },
+            "time": "2022-06-15T08:50:01+00:00"
+        },
+        {
+            "name": "toolkit/pflag",
+            "version": "v2.0.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-toolkit/pflag.git",
+                "reference": "6619dc82da0bd9a1253fb53af4338759fe170ae8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-toolkit/pflag/zipball/6619dc82da0bd9a1253fb53af4338759fe170ae8",
+                "reference": "6619dc82da0bd9a1253fb53af4338759fe170ae8",
+                "shasum": ""
+            },
+            "require": {
+                "ext-mbstring": "*",
+                "php": ">8.0.0",
+                "toolkit/cli-utils": "~2.0",
+                "toolkit/stdlib": "~2.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Toolkit\\PFlag\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "inhere",
+                    "email": "in.798@qq.com"
+                }
+            ],
+            "description": "Command line flag parse library of the php",
+            "homepage": "https://github.com/php-toolkit/pflag",
+            "support": {
+                "issues": "https://github.com/php-toolkit/pflag/issues",
+                "source": "https://github.com/php-toolkit/pflag/tree/v2.0.6"
+            },
+            "time": "2022-11-05T13:50:01+00:00"
+        },
+        {
+            "name": "toolkit/stdlib",
+            "version": "v2.0.11",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-toolkit/stdlib.git",
+                "reference": "c2558c387f16932adc26c1f933f194279dccdb80"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-toolkit/stdlib/zipball/c2558c387f16932adc26c1f933f194279dccdb80",
+                "reference": "c2558c387f16932adc26c1f933f194279dccdb80",
+                "shasum": ""
+            },
+            "require": {
+                "ext-mbstring": "*",
+                "php": ">=8.0"
+            },
+            "require-dev": {
+                "psr/container": "^2.0"
+            },
+            "suggest": {
+                "inhere/php-validate": "Very lightweight data validate tool"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "src/func.php"
+                ],
+                "psr-4": {
+                    "Toolkit\\Stdlib\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "inhere",
+                    "email": "in.798@qq.com",
+                    "homepage": "https://github.com/inhere/"
+                }
+            ],
+            "description": "some stdlib tool library of the php",
+            "homepage": "https://github.com/php-toolkit/stdlib",
+            "keywords": [
+                "array",
+                "library",
+                "object",
+                "php",
+                "string",
+                "tool"
+            ],
+            "support": {
+                "issues": "https://github.com/php-toolkit/stdlib/issues",
+                "source": "https://github.com/php-toolkit/stdlib/tree/v2.0.11"
+            },
+            "time": "2023-04-19T07:25:59+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.2.0"
+}

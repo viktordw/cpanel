@@ -13,5 +13,7 @@
             "name": "viktordw"
         }
     ],
-    "require": {}
+    "require": {
+        "toolkit/pflag": "^2.0"
+    }
 }
